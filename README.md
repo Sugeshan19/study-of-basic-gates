@@ -1,4 +1,3 @@
-![experiment 1 graph](https://github.com/user-attachments/assets/e52cb572-1fd9-492f-8a00-08bbb59e6145)### study-of-basic-gates
 
 **AIM:** 
 

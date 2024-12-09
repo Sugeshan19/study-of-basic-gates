@@ -62,30 +62,45 @@ Y= A⊕B
 
 
 **PROGRAM**
-module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
-    input a, b;
-    output c1, c2, c3, c4, c5, c6, c7;
-    assign c1 = ~a;
-    assign c2 = a & b;
-    assign c3 = a | b;
-    assign c4 = ~(a & b);
-    assign c5 = ~(a | b);
-    assign c6 = a ^ b;
-    assign c7 = ~(a ^ b);
-endmodule
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by:sugeshan RegisterNumber:24007573 
+ Developed by:sugeshan
+ RegisterNumber:24007573 
+
+module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
+    
+    input a, b;
+    
+    output c1, c2, c3, c4, c5, c6, c7;
+    
+    assign c1 = ~a;
+    
+    assign c2 = a & b;
+    
+    assign c3 = a | b;
+    
+    assign c4 = ~(a & b);
+    
+    assign c5 = ~(a | b);
+    
+    assign c6 = a ^ b;
+    
+    assign c7 = ~(a ^ b);
+
+endmodule
  
 **Logic symbol & Truthtable**
 ![ex 1 truth table](https://github.com/user-attachments/assets/b9d35ae6-357b-4079-aef3-c00e996c77d9)
+
+![digital electronics](https://github.com/user-attachments/assets/b20b0910-e027-460e-a844-4e50f7497296)
+
 **RTL realization Output:** 
-![experiment 1 graph](https://github.com/user-attachments/assets/191a7662-c2f9-4f9b-9547-3400cc495a4c)
 
 **RTL**
-![digital electronics](https://github.com/user-attachments/assets/b20b0910-e027-460e-a844-4e50f7497296)
+
+![experiment 1 graph](https://github.com/user-attachments/assets/191a7662-c2f9-4f9b-9547-3400cc495a4c)
 
 **Result:**
 The truth table of the specified logic gates (AND,OR,NOT,NAND,NOR,XOR,XNOR) was successfully implemented and verified using verilog
-programming in Quartus ||
+programming in Quartus ||.
 

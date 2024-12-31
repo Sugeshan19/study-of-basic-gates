@@ -68,8 +68,9 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:sugeshan
 
  RegisterNumber:24007573 
-
-module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
+ 
+ 
+    module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     
     input a, b;
     
@@ -97,8 +98,15 @@ module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
 
 
 
+
+
 **RTL**
 ![Screenshot 2024-12-31 144444](https://github.com/user-attachments/assets/2dd7044d-e778-40f7-ae4d-c2c83e4e8abf)
+
+
+
+
+
 
 
 

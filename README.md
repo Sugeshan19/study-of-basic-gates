@@ -88,18 +88,21 @@ module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     assign c6 = a ^ b;
     
     assign c7 = ~(a ^ b);
-
-endmodule
+    endmodule
  
 **Logic symbol & Truthtable**
 ![ex 1 truth table](https://github.com/user-attachments/assets/b9d35ae6-357b-4079-aef3-c00e996c77d9)
 
-![digital electronics](https://github.com/user-attachments/assets/b20b0910-e027-460e-a844-4e50f7497296)
 
-**RTL realization Output:** 
+
+
 
 **RTL**
+![Screenshot 2024-12-31 144444](https://github.com/user-attachments/assets/2dd7044d-e778-40f7-ae4d-c2c83e4e8abf)
 
+
+
+**RTL realization Output:** 
 ![experiment 1 graph](https://github.com/user-attachments/assets/191a7662-c2f9-4f9b-9547-3400cc495a4c)
 
 **Result:**
